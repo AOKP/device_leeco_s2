@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+
+
+  <project path="device/leeco/s2" name="AOKP/device_leeco_s2" remote="aokp" revision="nougat" />
+
+
+</manifest>
