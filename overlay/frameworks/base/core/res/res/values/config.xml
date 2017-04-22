@@ -219,6 +219,15 @@
          * The remote submix module "audio.r_submix.default" must be installed on the device.
          * The device must be provisioned with HDCP keys (for protected content).
     -->
+
+    <!-- Allow user to adjust button brightness from settings -->
+    <integer name="config_buttonBrightnessSettingDefault">110</integer>
+    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+
+    <!-- Hardware keys on/off option -->
+    <bool name="config_hwKeysPref">true</bool>    
+
+
     <bool name="config_enableWifiDisplay">true</bool>
 
     <!-- Boolean indicating whether the wifi chipset has dual frequency band support -->
